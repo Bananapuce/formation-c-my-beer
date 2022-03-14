@@ -5,9 +5,9 @@ import "./style.css";
 import useCounter from "../useCounter";
 
 export default function Countdown({ initialCount = 100, step = 1 }) {
-  const [count, setCount] = React.useState(initialCount);
+  //const [count, setCount] = React.useState(initialCount);
 
-  const [count, { decrement, reset }] = useCounter(initialCOunt, step);
+  const [count, { decrement, reset }] = useCounter(initialCount, step);
 
   return (
     <>

@@ -1,7 +1,10 @@
-export default function useCounter(initialCount = 10, step = 1) {}
-const [count, setCount] = React.useState(initialCount);
+import React from "react";
 
-const decrement = () => setCount(Math.max(count - step, 0));
-const reset = () => setCount(initialCount);
+export default function useCounter(initialCount = 10, step = 1) {
+  const [count, setCount] = React.useState(initialCount);
 
-return [count, { decrement, reset }];
+  const decrement = () => setCount(Math.max(count - step, 0));
+  const reset = () => setCount(initialCount);
+
+  return [count, { decrement, reset }];
+}

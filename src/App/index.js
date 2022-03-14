@@ -1,11 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { CssBaseline } from "@mui/material";
-import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
 
 import HomeScreen from "../HomeScreen";
 import BasketScreen from "../BasketScreen";
 import BeerScreen from "../BeerScreen";
 import theme from "./theme";
+import CountdownScreen from "../CountdownScreen";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <CssBaseline />
       <BrowserRouter>
         <Routes>
+          <Route path="countdown" element={<CountdownScreen />} />
           <Route path="/" element={<HomeScreen />} />
           <Route path="/basket" element={<BasketScreen />} />
           <Route path="/beers/:id" element={<BeerScreen />} />
