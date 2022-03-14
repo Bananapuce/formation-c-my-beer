@@ -5,7 +5,7 @@ import Screen from "../Screen";
 export default function BasketScreen() {
   return (
     <Screen
-      title="BasketScreen"
+      title="Mon panier"
       navigation={<Link to="/">Revenir à la page d'accueil</Link>}
     />
   );
