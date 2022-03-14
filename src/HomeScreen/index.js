@@ -1,14 +1,14 @@
-import { Link } from "react-router-dom";
-
-import "./style.css";
+import Beer from "../Beer";
 import Screen from "../Screen";
 
 export default function HomeScreen() {
+  const beers = [{ id: 1 }, { id: 2 }, { id: 3 }];
+
   return (
-    <Screen
-      title="HomeScreen"
-      navigation={<Link to="/basket">Voir mon panier</Link>}
-      isHome={true}
-    />
+    <Screen>
+      {beers.map(({ id }) => (
+        <beer id={id} />
+      ))}
+    </Screen>
   );
 }
