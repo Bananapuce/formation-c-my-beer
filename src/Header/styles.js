@@ -1,4 +1,4 @@
-import { NoEncryption } from "@mui/icons-material";
+import { Node } from "@mui/icons-material";
 import { styled } from "@mui/material/styles";
 import { Link as RrdLink } from "react-router-dom";
 
