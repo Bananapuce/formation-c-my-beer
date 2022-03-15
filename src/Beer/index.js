@@ -10,8 +10,7 @@ import {
   Select,
   Typography,
 } from "@mui/material";
-import { shape } from "prop-types";
-import { number } from "prop-types";
+import { shape, string } from "prop-types";
 import React from "react";
 
 const useQuantity = () => {
@@ -64,10 +63,10 @@ export default function Beer({ beer }) {
 
 Beer.propTypes = {
   beer: shape({
-    id: "string",
-    name: "string",
-    description: "string",
-    imageUri: "string",
-    price: "string",
+    id: string,
+    name: string,
+    description: string,
+    imageUri: string,
+    price: string,
   }),
 };

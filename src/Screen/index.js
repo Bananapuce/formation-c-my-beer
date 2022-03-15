@@ -13,5 +13,5 @@ export default function Screen({ children }) {
 }
 
 Screen.propTypes = {
-  children: Node,
+  children: node,
 };
