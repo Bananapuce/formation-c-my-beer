@@ -2,7 +2,7 @@ import { number } from "prop-types";
 import React from "react";
 
 import "./style.css";
-import useCounter from "../useCounter";
+import { useCounter } from "../hooks";
 
 export default function Countdown({ initialCount = 100, step = 1 }) {
   //const [count, setCount] = React.useState(initialCount);
