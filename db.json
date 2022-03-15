@@ -1,0 +1,178 @@
+{
+  "beers": [
+    {
+      "id": "rs8GCw",
+      "name": "Focal Banger",
+      "description": "Focal Banger is an American India Pale Ale. We have a real love for IPAs here at Alchemist, and we strive to offer you t",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/rs8GCw/upload_XIcqa6-large.png",
+      "price": "5.14"
+    },
+    {
+      "id": "lFHjKe",
+      "name": "GBG Beer Week 2018",
+      "description": "When we got asked to do the official GBG Beer Week 2018 beer all we could think about was sour strawberries, sour and st",
+      "categoryId": 4,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/lFHjKe/upload_Gwao1A-large.png",
+      "price": "3.44"
+    },
+    {
+      "id": "CFIZtr",
+      "name": "Heady Topper",
+      "description": "We love hops – that’s why our flagship Double IPA, Heady Topper, is packed full of them. Heady Topper was designed to sh",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/CFIZtr/upload_sMChYT-large.png",
+      "price": "6.10"
+    },
+    {
+      "id": "erWFyB",
+      "name": "Hommage Bio Frambozen (season 17|18) Blend No. 60",
+      "description": "This particular Hommage has macerated for 6 months and the\r\nfinal fruit intensity is 350 grams of fruit per litre. While",
+      "categoryId": 5,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/erWFyB/upload_95FsB5-large.png",
+      "price": "5.34"
+    },
+    {
+      "id": "VvFIVD",
+      "name": "Hopslam",
+      "description": "Starting with six different hop varietals added to the brew kettle & culminating with a massive dry-hop addition of Simc",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/VvFIVD/upload_jPl9j1-large.png",
+      "price": "4.92"
+    },
+    {
+      "id": "tQS7Kq",
+      "name": "Hypersleep",
+      "description": "Bourbon barrel aged imperial stout with anchos, coco, and cinnamon.\r\n\r\n\r\nCOLLABORATION WITH\r\nCIVIL SOCIETY",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/tQS7Kq/upload_y6pd1C-large.png",
+      "price": "6.69"
+    },
+    {
+      "id": "MYqCC6",
+      "name": "James",
+      "description": "James was our Uncle (Edward James Hill, Jr.); Hill Farmstead Brewery rests upon the land that was once home to him and h",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/MYqCC6/upload_5ZSFbH-large.png",
+      "price": "6.51"
+    },
+    {
+      "id": "JeH6oB",
+      "name": "La Folie - Lips of Faith",
+      "description": "La Folie Wood-Aged Biere, is our original wood-conditioned beer, resting in French Oak barrels between one and three yea",
+      "categoryId": 5,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/JeH6oB/upload_0XmUU4-large.png",
+      "price": "6.54"
+    },
+    {
+      "id": "EHveq0",
+      "name": "Lou Pepe Kriek",
+      "description": "The Lou Pepe series of beers are made with two year old lambic, often coming from barrels in which only wine has been ke",
+      "categoryId": 5,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/EHveq0/upload_RzDgvB-large.png",
+      "price": "2.18"
+    },
+    {
+      "id": "44rVs2",
+      "name": "Pannepot",
+      "description": "At Struise, we love all the beers we make. However, if there should be only one that we should call our ‘flagship’ with ",
+      "categoryId": 5,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/44rVs2/upload_RW71Ct-large.png",
+      "price": "5.28"
+    },
+    {
+      "id": "nJgqV2",
+      "name": "Pannepot Grand Reserva",
+      "description": "undefined",
+      "categoryId": 5,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/nJgqV2/upload_C5MSTp-large.png",
+      "price": "4.51"
+    },
+    {
+      "id": "rf0v5B",
+      "name": "Pirate Bomb",
+      "description": "Pirate bomb is our beer Prairie Bomb! aged in rum casks. The flavor from the casks helps impart more vanilla and coconut",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/rf0v5B/upload_NuVipI-large.png",
+      "price": "7.31"
+    },
+    {
+      "id": "XAXGgF",
+      "name": "Pliny the Elder",
+      "description": "Pliny the Elder is brewed with Amarillo, Centennial, CTZ, and Simcoe hops. It is well-balanced with malt, hops, and alco",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/XAXGgF/upload_or9CTI-large.png",
+      "price": "3.20"
+    },
+    {
+      "id": "9UG4pg",
+      "name": "Pliny the Younger",
+      "description": "Pliny the Younger, the man, was Pliny the Elder’s nephew and adopted son. They lived nearly 2,000 years ago! Pliny the E",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/9UG4pg/upload_CN8EwR-large.png",
+      "price": "3.15"
+    },
+    {
+      "id": "pbMPZm",
+      "name": "Rodenbach Classic (Red)",
+      "description": "RODENBACH is the unique “Flanders Red-Brown Beer”, recognised as a traditional local product. Mixed main fermentation an",
+      "categoryId": 5,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/pbMPZm/upload_ODCIb0-large.png",
+      "price": "7.40"
+    },
+    {
+      "id": "yskgVM",
+      "name": "Scary Jesus Rock Star",
+      "description": "This collaboration beer made with Chef Cleetus Friedman of Chicago's Fountainhead will save your soul and then melt your",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/yskgVM/upload_YQVnNi-large.png",
+      "price": "5.12"
+    },
+    {
+      "id": "Rc4cSx",
+      "name": "Speedway Stout",
+      "description": "Speedway Stout’s ominous, pitch-black appearance has become a hallmark of this modern-day classic. Chocolate and roasted",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/Rc4cSx/upload_vSuAVZ-large.png",
+      "price": "5.80"
+    },
+    {
+      "id": "x6bRxw",
+      "name": "Ten FIDY",
+      "description": "Ten FIDY Imperial Stout – This titanic, immensely viscous stout is loaded with inimitable flavors of chocolate-covered c",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/x6bRxw/upload_IVgoz7-large.png",
+      "price": "5.96"
+    },
+    {
+      "id": "UWBCmm",
+      "name": "Trappistes Rochefort 10",
+      "description": "Dark brown color. Great strength balanced by a complexity of flavors and firm malt backbone. The bouquet covers a wide r",
+      "categoryId": 5,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/UWBCmm/upload_0tKANR-large.png",
+      "price": "3.40"
+    },
+    {
+      "id": "SPClNd",
+      "name": "Zombie Dust",
+      "description": "This intensely hopped and gushing undead Pale Ale will be one’s only respite after the zombie apocalypse. Created with o",
+      "categoryId": 3,
+      "imageUri": "https://brewerydb-images.s3.amazonaws.com/beer/SPClNd/upload_uziBpE-large.png",
+      "price": "6.63"
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "North American Origin Ales"
+    },
+    {
+      "id": 4,
+      "name": "German Origin Ales"
+    },
+    {
+      "id": 5,
+      "name": "Belgian And French Origin Ales"
+    }
+  ]
+}
