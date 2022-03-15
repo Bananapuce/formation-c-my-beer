@@ -1,10 +1,9 @@
+import { func, string } from "prop-types";
 import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 
-import { useCategories, useSelect } from "../hooks";
+import { useCategories } from "../hooks";
 
-export default function Filter() {
-  const [category, setCategory] = useSelect("");
-
+export default function Filter({ category, setCategory }) {
   const { isLoading, categories } = useCategories();
 
   return (
@@ -12,9 +11,8 @@ export default function Filter() {
       <InputLabel id="filter-label">Catégorie</InputLabel>
       <Select
         labelId="filter-label"
-        id="demo-simple-select"
         value={category}
-        label="Filter"
+        label="Catégorie"
         onChange={setCategory}
         disabled={isLoading}
       >
@@ -28,3 +26,8 @@ export default function Filter() {
     </FormControl>
   );
 }
+
+Filter.propTypes = {
+  category: string,
+  setCategory: func,
+};
