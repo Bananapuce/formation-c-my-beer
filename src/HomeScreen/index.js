@@ -1,19 +1,27 @@
-import { Grid } from "@mui/material";
+import { CircularProgress, Grid } from "@mui/material";
+import React from "react";
 import Beer from "../Beer";
 import Screen from "../Screen";
+import useBeers from "../useBeers";
 
 export default function HomeScreen() {
-  const beers = new Array(20).fill(null).map((_, i) => ({ id: i }));
+  const [beers] = useBeers();
+
+  const hasBeers = beers.length > 0;
 
   return (
     <Screen>
-      <Grid container justifyContent="space-between" spacing={4}>
-        {beers.map(({ id }) => (
-          <Grid key={id} item>
-            <Beer id={id} />
-          </Grid>
-        ))}
-      </Grid>
+      {hasBeers ? (
+        <Grid container justifyContent="space-between" spacing={4}>
+          {beers.map((beer) => (
+            <Grid key={beer.id} item>
+              <Beer beer={beer} />
+            </Grid>
+          ))}
+        </Grid>
+      ) : (
+        <CircularProgress />
+      )}
     </Screen>
   );
 }
