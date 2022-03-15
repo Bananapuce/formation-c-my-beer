@@ -67,5 +67,5 @@ export default function Beer({ id }) {
 }
 
 Beer.propTypes = {
-  id: number,
+  id: number.isRequired,
 };
