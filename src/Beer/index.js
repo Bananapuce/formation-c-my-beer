@@ -4,11 +4,28 @@ import {
   CardActions,
   CardContent,
   CardMedia,
+  FormControl,
+  InputLabel,
+  MenuItem,
+  Select,
   Typography,
 } from "@mui/material";
 import { number } from "prop-types";
+import React from "react";
+
+const useQuantity = () => {
+  const [quantity, setQuantity] = React.useState(1);
+
+  const handleChange = (event) => {
+    setQuantity(event.target.value);
+  };
+
+  return [quantity, handleChange];
+};
 
 export default function Beer({ id }) {
+  const [quantity, setQuantity] = useQuantity();
+
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -27,8 +44,23 @@ export default function Beer({ id }) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <FormControl variant="standard">
+          <InputLabel id="quantity-label">Quantité</InputLabel>
+          <Select
+            labelId="quantity-label"
+            value={quantity}
+            label="Quantité"
+            onChange={setQuantity}
+            size="small"
+          >
+            <MenuItem value={1}>1 bouteille</MenuItem>
+            <MenuItem value={2}>2 bouteilles</MenuItem>
+            <MenuItem value={3}>3 bouteilles</MenuItem>
+            <MenuItem value={4}>4 bouteilles</MenuItem>
+            <MenuItem value={5}>5 bouteilles</MenuItem>
+          </Select>
+        </FormControl>
+        <Button size="small">Ajouter au panier</Button>
       </CardActions>
     </Card>
   );
